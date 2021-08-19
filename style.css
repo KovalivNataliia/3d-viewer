@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+}
+
+.text-panel {
+  background-color: #2ea7ff;
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  top: 70%;
+  left: 42%;
+  font-size: 9px;
+  border-radius: 10px;
+  display: none;
+}
+
+.text-panel.active {
+  display: block;
+}
+
+.close-button {
+  background-color: transparent;
+  position: relative;
+  left: 175px;
+  top: 5px;
+  border: none;
+}
+
+.close-button img {
+  width: 15px;
+  height: 15px;
+}
+
+.text {
+  margin: 10px 8px;
+}
